@@ -55,6 +55,7 @@ class DB {
 		$this -> table = $table;
 		$cnd = $condition;
                 $query=mysqli_query($con,"SELECT * FROM $this->table WHERE $cnd")or die("error in get") ;
+		session_destroy();		
 		return $query;
 
 	}
