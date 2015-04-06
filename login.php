@@ -211,7 +211,7 @@ echo "<div style='text-align:center;color:red'><h3> Please Enter Your Username a
 
       <!--main content end-->
       <!--footer start-->
-      <footer class="site-footer">
+      <footer class="site-footer" style="background-color:#5F5F5F;">
           <div class="text-center">
               2015 - calteta.com
               <a href="" class="go-top">
